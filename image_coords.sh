@@ -2,4 +2,4 @@
 JAVA_PATH=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
 
 # the two -D args are to background it
-java -Dapple.awt.UIElement=true -Djava.awt.headless=true -jar image_coords.jar "$1" "$2"
+$JAVA_PATH/bin/java -Dapple.awt.UIElement=true -Djava.awt.headless=true -jar image_coords.jar "$1" "$2"
