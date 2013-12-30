@@ -14,7 +14,7 @@ It will then run the sikuli script via [image_coords.sh](https://github.com/vgmo
 
 The script will report back coordinates of [img/apps_target.png](https://github.com/vgmoose/sikuli-spectre/blob/master/img/apps_target.png) in [img/before_site.png](https://github.com/vgmoose/sikuli-spectre/blob/master/img/before_site.png) to PhantomJS. This information is then applied as a click event
 
-img/result_of_click.png](https://github.com/vgmoose/sikuli-spectre/blob/master/img/result_of_click.png) is then written as just that- the result of the click
+[img/result_of_click.png](https://github.com/vgmoose/sikuli-spectre/blob/master/img/result_of_click.png) is then written as just that- the result of the click
 
 ### What next?
 The method of interacting with sikuli through phantomjs is a bit complicated, and can result in an ugly script fast that is [hard to follow](https://github.com/vgmoose/sikuli-spectre/blob/master/spire.js).
