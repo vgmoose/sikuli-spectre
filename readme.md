@@ -3,12 +3,16 @@
 ### Let's change autonomous web scripting!
 Sikuli Spectre combines [PhantomJS](http://phantomjs.org) and [Sikuli](http://sikuli.org) to allow the user to write PhantomJS scripts that render in the background but use Sikuli's image finding algorithms to interact visually with the webpage that isn't being displayed.
 
+### Requirements
+* Sikuli IDE installed for your system
+* PhantomJS installed
+
 ### Running the Demo
 ```
 phantomjs sikuli.js
 ```
 
-The code will open my website and write the behind the scenes output that the headless webkit is looking at to [img/before_site.png](https://github.com/vgmoose/sikuli-spectre/blob/master/img/before_site.png)
+The code will open the specified site and write the behind the scenes output that the headless webkit is looking at to [img/before_site.png](https://github.com/vgmoose/sikuli-spectre/blob/master/img/before_site.png)
 
 It will then run the sikuli script via [image_coords.sh](https://github.com/vgmoose/sikuli-spectre/blob/master/image_coords.sh). If this line errors, you may need to customize line 2 of [image_coords.sh](https://github.com/vgmoose/sikuli-spectre/blob/master/image_coords.sh) to the appropriate use Java 6 runtime.
 
